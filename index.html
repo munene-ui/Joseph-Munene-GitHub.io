@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f0f0f0;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .search-box, .blog, .contact, .social {
+      margin-top: 2rem;
+    }
+    input[type="text"], input[type="email"], textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .social a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #007BFF;
+    }
+    .contact-info {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hello, I'm Joseph Munene</h1>
+    <p>Welcome to my personal website. Here you'll find my blog, projects, and more about me.</p>
+
+    <div class="search-box">
+      <h2>Search My Site</h2>
+      <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q" placeholder="Search..." />
+        <input type="hidden" name="sitesearch" value="yourwebsite.com" />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="blog">
+      <h2>My Blog</h2>
+      <p>Coming soon! I’ll share posts about my projects, thoughts, and tips here.</p>
+    </div>
+
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <form action="mailto:sennhmunene77@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" />
+        <input type="email" name="email" placeholder="Your Email" />
+        <textarea name="message" placeholder="Your Message" rows="5"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p>Phone: 0718686770</p>
+      </div>
+    </div>
+
+    <div class="social">
+      <h2>Follow Me</h2>
+      <a href="https://x.com/MuneneSennh?t=iEqoFLEoDm0DPPMsNDbSig&s=09" target="_blank">Twitter</a>
+      <a href="https://www.facebook.com/joseph.munene.5648137" target="_blank">Facebook</a>
+    </div>
+  </div>
+</body>
+</html>
